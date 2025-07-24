@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       as="style"
@@ -22,94 +22,116 @@
       }
     </style>
   </head>
-  <body class="bg-gray-50" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+  <body class="bg-gray-50 text-[#101518]" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+
     <!-- Header -->
-    <header class="flex items-center justify-between px-10 py-3 border-b border-gray-200">
-      <div class="flex items-center gap-3 text-[#101518]">
-        
-          <path
-            d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z"
-          />
+    <header class="flex items-center justify-between px-6 md:px-10 py-4 border-b border-gray-200">
+      <div class="flex items-center gap-3">
+          <path d="M24 45.81c-4.31 0-8.53-1.28-12.12-3.68C8.3 39.74 5.5 36.33 3.85 32.35 2.2 28.36 1.77 23.98 2.61 19.75c.84-4.23 2.92-8.12 5.96-11.12a21.93 21.93 0 0 1 11.18-5.97c4.23-.84 8.6-.37 12.6 1.31a21.89 21.89 0 0 1 11.12 5.97c3.05 3 5.13 6.89 5.96 11.12.84 4.23.42 8.61-1.31 12.6a22.1 22.1 0 0 1-5.96 7.64A22.3 22.3 0 0 1 24 45.81z"/>
         </svg>
         <h1 class="text-lg font-bold">Kiran Antony</h1>
       </div>
-      <nav class="flex gap-8 text-sm font-medium text-[#101518]">
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
         <a href="#about" class="hover:underline">About</a>
         <a href="#services" class="hover:underline">Services</a>
         <a href="#contact" class="hover:underline">Contact</a>
-        <a href="KIRAN_ANTONY.pdf" target="_blank" rel="noopener noreferrer">
-          <button class="bg-[#dce8f3] text-[#101518] px-4 py-2 rounded-xl font-bold">
-            Resume
-          </button>
+        <a href="KIRAN_ANTONY.pdf" target="_blank">
+          <button class="bg-[#dce8f3] text-[#101518] px-4 py-2 rounded-xl font-bold">Resume</button>
         </a>
       </nav>
     </header>
 
     <!-- Hero Section -->
-    <section
-      class="flex items-end justify-start px-10 py-6 text-white"
-      style='
-        background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url("kiran_antony_image-removebg-preview.png");
-        background-position: top center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 480px;
-      '
-    >
-      <div class="space-y-2">
-        <h1 class="text-4xl font-black">Kiran Antony</h1>
-        <h2 class="text-base font-normal">Digital Marketing Expert & Badminton Stringing Professional</h2>
-        <a href="KIRAN_ANTONY.pdf" target="_blank">
-          <button class="mt-3 bg-[#dce8f3] text-[#101518] font-bold px-5 py-2 rounded-xl">
-            View Resume
-          </button>
-        </a>
-      </div>
-    </section>
+<!-- Hero Section -->
+<section
+  class="flex items-end justify-start px-10 py-6 text-white"
+  style='
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url("kiran_antony_fullscreen.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  '
+>
+  <div class="space-y-2">
+    <h1 class="text-4xl font-black">Kiran Antony</h1>
+    <h2 class="text-base font-normal">Digital Marketing Expert & Badminton Stringing Professional</h2>
+    <a href="KIRAN_ANTONY.pdf" target="_blank">
+      <button class="mt-3 bg-[#dce8f3] text-[#101518] font-bold px-5 py-2 rounded-xl">
+        View Resume
+      </button>
+    </a>
+  </div>
+</section>
 
     <!-- About -->
-    <section id="about" class="px-10 py-8">
-      <h2 class="text-[22px] font-bold text-[#101518] mb-3">About</h2>
-      <p class="text-base text-[#101518] leading-relaxed">
-        Kiran Antony is a seasoned digital marketing expert with a passion for helping businesses grow their online presence.
-        With years of experience in the industry, Kiran has developed a deep understanding of various digital marketing strategies,
-        including SEO, content marketing, social media marketing, and PPC advertising.
-        <br /><br />
-        In addition to his digital marketing expertise, Kiran is also a skilled badminton stringing professional,
-        providing high-quality stringing services to badminton players of all levels.
+    <section id="about" class="max-w-4xl mx-auto px-4 py-8">
+      <h2 class="text-[22px] font-bold pb-3">About</h2>
+      <p class="pb-3">
+        I’m a freelance digital marketing professional and badminton stringing expert passionate about delivering results both online and on the court. I’ve helped shape brand identities, boost digital presence, and drive growth through targeted SEO, social media strategies, and content creation.
+      </p>
+      <ul class="list-disc list-inside space-y-2 pb-3">
+        <li>Brand development & positioning for small and mid-sized businesses</li>
+        <li>Search Engine Optimization (SEO) and e-commerce growth strategies</li>
+        <li>Marketing campaign execution across digital platforms</li>
+        <li>Creative content strategy and storytelling for social media</li>
+        <li>Professional badminton racket stringing services tailored to player needs</li>
+      </ul>
+      <p class="pb-3">
+        Academically, I’m pursuing an MBA in Marketing and Logistics from Bharathiar University, after completing my B.Com at Calicut University. This academic foundation helps me merge analytical thinking with creative marketing and branding skills.
+      </p>
+      <p>
+        I believe in continuous learning and staying ahead of trends in branding, digital strategy, and customer experience—delivering value to every project I undertake.
       </p>
     </section>
 
     <!-- Services -->
-    <section id="services" class="px-10 py-8 bg-white">
-      <h2 class="text-[22px] font-bold text-[#101518] mb-3">Services</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <div class="p-5 border border-[#d4dce2] rounded-lg bg-gray-50">
-          <h3 class="text-base font-bold text-[#101518] mb-2">Digital Marketing</h3>
+    <section id="services" class="max-w-6xl mx-auto px-4 py-8">
+      <h2 class="text-[22px] font-bold pb-3">Services</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Digital Marketing -->
+        <div class="flex flex-col items-start gap-3 rounded-lg border border-[#d4dce2] bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
+          <img src="https://img.icons8.com/fluency/48/marketing.png" alt="Digital Marketing Icon" class="w-10 h-10" />
+          <h3 class="text-lg font-semibold">Digital Marketing</h3>
           <p class="text-sm text-[#5c748a]">
-            Comprehensive digital marketing solutions including SEO, content creation, web designing, and more to enhance your online visibility and drive business growth.
+            SEO, social media, content strategies, and Google My Business optimization to build visibility and reach.
           </p>
         </div>
-        <div class="p-5 border border-[#d4dce2] rounded-lg bg-gray-50">
-          <h3 class="text-base font-bold text-[#101518] mb-2">Badminton Stringing</h3>
+
+        <!-- Branding & Web Dev -->
+        <div class="flex flex-col items-start gap-3 rounded-lg border border-[#d4dce2] bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
+          <img src="https://img.icons8.com/color/48/domain.png" alt="Branding & Web Dev Icon" class="w-10 h-10" />
+          <h3 class="text-lg font-semibold">Branding & Web Development</h3>
           <p class="text-sm text-[#5c748a]">
-            Professional badminton stringing services tailored to your playing style and preferences.
+            E-commerce-focused branding and website design solutions including logo, layout, product showcasing, and mobile optimization.
           </p>
         </div>
+
+        <!-- Badminton Stringing -->
+        <div class="flex flex-col items-start gap-3 rounded-lg border border-[#d4dce2] bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
+          <img src="https://img.icons8.com/color/48/badminton.png" alt="Badminton Icon" class="w-10 h-10" />
+          <h3 class="text-lg font-semibold">Badminton Stringing (Part-Time)</h3>
+          <p class="text-sm text-[#5c748a]">
+            Precision racket stringing for intermediate and pro players—customized string, tension, and quick delivery.
+          </p>
+        </div>
+
       </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="px-10 py-8">
-      <h2 class="text-[22px] font-bold text-[#101518] mb-3">Contact</h2>
-      <p class="text-base text-[#101518] mb-4">
+    <section id="contact" class="max-w-4xl mx-auto px-4 py-8">
+      <h2 class="text-[22px] font-bold mb-3">Contact</h2>
+      <p class="mb-4">
         Get in touch with Kiran to discuss your digital marketing needs or badminton stringing requirements.
       </p>
-      <div class="text-sm text-[#101518] space-y-2">
+      <div class="text-sm space-y-2">
         <p><strong>📞 Phone:</strong> <a href="tel:+917012633504" class="text-blue-600 hover:underline">+91 70126 33504</a></p>
         <p><strong>📧 Email:</strong> <a href="mailto:kiran.antony.official@gmail.com" class="text-blue-600 hover:underline">kiran.antony.official@gmail.com</a></p>
         <p><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/kiran-antony" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/kiran-antony</a></p>
       </div>
     </section>
+
   </body>
 </html>
